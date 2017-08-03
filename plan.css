@@ -1,0 +1,39 @@
+body{
+    background: url("assets/city.jpg");
+    background-size: cover;
+}
+
+.jumbotron{
+text-align: center;
+ padding: 80px; 
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ opacity: 0.9;
+}
+
+
+ /*dont touch  */
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background: transparent;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+        background: black;
+    }
+}
+/*dont touch  */
+
+.navbar
+{
+    color: white;
+    background: black;
+    border: 0px;
+}
+
+

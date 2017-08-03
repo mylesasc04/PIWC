@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<link rel="stylesheet" href="plan.css">
+
+<style>
+	#map {
+		width: 100%;
+		height: 400px;
+		background-color: grey;
+	}
+</style>
+
+    <title> P I W C</title>
+</head>
+<body>
+       <!--nav bar (keep outside the first div) -->
+ <nav class="navbar navbar-default" role="navigation">
+    	  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered"><img alt="" src="assets/logo.jpeg"></div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a href="file:///C:/Users/ASC%20Guest/Desktop/Profile/copteen/copteen.html">Home</a></li>
+		        <li><a href="Events.html">Events</a></li>
+		        <li><a href="Media.html">Media</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="Contacts.html">Contacts</a></li>
+		        <li><a href="podcast.html">Podcast</a></li>
+		        <li><a href="kidteen.html">Kids and Teen Hub</a></li>		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+<!--Nav Bar  -->
+
+<!-- container -->
+<div>
+<!--container  -->
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Our Main Location</h1>
+	<div id="map"></div>
+	<script>
+		function initMap() {
+			var uluru = { lat: 40.6272190, lng: -74.0777060 };
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 16,
+				center: uluru
+			});
+			var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			});
+		}
+
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6X9Ch2x0Gr3G5zH9rsbnAeyHgMuUkVxE&callback=initMap">
+
+</script>
+
+<p><a class="btn btn-primary btn-lg" href="https://www.google.com/maps/dir/''/The+Church+Of+Pentecost+Usa+Inc.+Staten+Island+Assembly+Staten+Island,+NY+10304/@40.6270573,-74.1477242,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89c24e4b2f76dd23:0x71aedba30d959214!2m2!1d-74.0776843!2d40.6270785" role="button">Get Directions!</a></p>
+
+		<h2> Hours of Worship: </h2>
+		<p> Sundays @8:00am-8:30am -Bible Studies
+	||
+			8:30am-10:30am -Service Hours
+		</p>
+		<p>
+			Wednesdays @ 7:00pm-8:30pm -Fellowship Time
+		</p>
+	</div>
+
+<!--container  -->
+</div>
+<!--container  -->
+</body>
+</html>
