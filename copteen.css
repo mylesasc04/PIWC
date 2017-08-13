@@ -19,7 +19,7 @@ color: white;
 /*dont touch  */
 @media screen and (min-width:768px){
     .navbar-brand-centered {
-        position: absolute;
+        position: fixed;
         left: 50%;
         display: block;
         width: 160px;

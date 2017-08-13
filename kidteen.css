@@ -26,4 +26,16 @@ body{
     color: white;
     background: black;
     border: 0px;
+    z-index: 1;
+}
+.jumbotron
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: white;
+    text-align: center;
+    border: 10px solid white;
+    color: black;
+    text-shadow: 1px 1px 1px white, 
+               3px 3px 5px blue; 
+               z-index: 10;
 }

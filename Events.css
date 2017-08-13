@@ -28,3 +28,13 @@ body{
     border: 0px;
 }
 
+
+.calender{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+}
+
