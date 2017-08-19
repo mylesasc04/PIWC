@@ -1,9 +1,7 @@
-/* body
-{
-    background-image: url("assets/city.jpg");
-    background-size: cover;
-} */
-
+html{
+      -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
 
 
 
