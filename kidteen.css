@@ -28,7 +28,26 @@ body{
     border: 0px;
     z-index: 1;
 }
-.jumbotron
+
+/* .navbar-brand{
+    z-index: -1;
+} */
+
+/* #one{
+    padding: 140px;
+text-align: center;
+background: transparent;
+
+
+
+}
+
+#two{
+text-align: center;
+background: transparent;
+} */
+
+/* .jumbotron
 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: white;
@@ -38,4 +57,4 @@ body{
     text-shadow: 1px 1px 1px white, 
                3px 3px 5px blue; 
                z-index: 10;
-}
+} */
